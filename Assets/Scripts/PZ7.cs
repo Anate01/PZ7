@@ -6,21 +6,21 @@ public class PZ7 : MonoBehaviour
 {
     //private Person myPers = new Person();
     //private Player myPlayer = new Player();
-    [SerializeField] private Person myPers;
+    //[SerializeField] private Person myPers;
     [SerializeField] private Player myPlayer;
 
     void Start()
     {
         //////// 1
         
-        Debug.Log("My Person health " + myPers.Health);
-        myPers.Health = 30;
-        Debug.Log("Change my Person health to " + myPers.Health);
-        myPers.Health = 300;
-        myPers.Health = -300;
-        Debug.Log("My Person health still " + myPers.Health);
+        //Debug.Log("My Person health " + myPers.Health);
+        //myPers.Health = 30;
+        //Debug.Log("Change my Person health to " + myPers.Health);
+        //myPers.Health = 300;
+        //myPers.Health = -300;
+        //Debug.Log("My Person health still " + myPers.Health);
 
-        Debug.Log("My Person name " + myPers.Name);
+        //Debug.Log("My Person name " + myPers.Name);
 
         //////// 2
         Debug.Log("My Player health " + myPlayer.Health);
